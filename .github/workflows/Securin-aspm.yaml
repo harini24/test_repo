@@ -13,7 +13,7 @@ jobs:
     env:
       APP_ID: e7db26d4a12dda87ecb74c2e33436a741943cd8ec0c16c4d4d4094778ba39ce7
       BRANCH_NAME: progress_steps
-      SCAN_ID: 8967c8aede0edbe62a214da66b67344da1e9bcb6e611b98968a6f23417567cdb
+      SCAN_ID: 3dc6a0ea11264e93d00b41efd20e9343a92ecb7ddc35b3ac636467cac1d9f683
       REQ_URL_MAP: "${{toJSON('{\"SL_RESULT_API_HOST\":\"https://46d1-103-213-1-241.ngrok.io/resultapi\"\
         ,\"SL_RESULTPARSER_API_HOST\":\"https://9455-103-213-1-241.ngrok.io/resultparserapi\"\
         }')}}"
