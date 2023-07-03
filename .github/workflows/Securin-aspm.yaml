@@ -13,7 +13,7 @@ jobs:
     env:
       APP_ID: 1239eef94a14abd7abac4c8c1dde0f538430c0e039d47aa301bbfaa6f8756e6e
       BRANCH_NAME: progress_steps
-      SCAN_ID: bfd7abea3ade6e91f8df9fb6e0145944c0be3b8f202b7e8083c07284e87dcac3
+      SCAN_ID: 274c5d800a7d33941e8c3973e0741acfab65fd0fb7bad225e3f1330c193bd0d4
       REQ_URL_MAP: "${{toJSON('{\"SL_RESULT_API_HOST\":\"https://slresultapi.qa.securin.io/resultapi\"\
         ,\"SL_RESULTPARSER_API_HOST\":\"https://slresultparserapi.qa.securin.io/resultparserapi\"\
         }')}}"
