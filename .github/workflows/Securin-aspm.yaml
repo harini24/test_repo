@@ -13,7 +13,7 @@ jobs:
     env:
       APP_ID: 1239eef94a14abd7abac4c8c1dde0f538430c0e039d47aa301bbfaa6f8756e6e
       BRANCH_NAME: expanding_cards
-      SCAN_ID: 22e0a9769faaa53b33fe73fbc53d8cde15962311669d9c7e696644bb4f236aed
+      SCAN_ID: 1a44dd24439b6f8135f209853175ab1516a35ca26f5d7e3d3d07d51731db689f
       REQ_URL_MAP: "${{toJSON('{\"SL_RESULT_API_HOST\":\"https://slresultapi.qa.securin.io/resultapi\"\
         ,\"SL_RESULTPARSER_API_HOST\":\"https://slresultparserapi.qa.securin.io/resultparserapi\"\
         }')}}"
