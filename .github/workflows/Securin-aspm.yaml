@@ -3,7 +3,7 @@ name: Securin-ASPM
 on:
   pull_request:
     branches:
-    - main
+    - testbranch_name-kshdkjsjdhuhufesufushdhsjdhydeyrgyewfygeyfgeygfyegfegfef
   workflow_dispatch:
     inputs:
       logLevel:
@@ -11,9 +11,9 @@ on:
 jobs:
   scanning:
     env:
-      APP_ID: 1239eef94a14abd7abac4c8c1dde0f538430c0e039d47aa301bbfaa6f8756e6e
-      BRANCH_NAME: main
-      SCAN_ID: aa12ad263a2885e646d7eb13cbcdf96c2f8301b8213bc9ed47b5f4e7f5a7b45f
+      APP_ID: a238bdbc21709344b34c9e7a6b0ae4e6c4adad98bc770a13d1166b5bb354204b
+      BRANCH_NAME: testbranch_name-kshdkjsjdhuhufesufushdhsjdhydeyrgyewfygeyfgeygfyegfegfef
+      SCAN_ID: bffc5f1011793debb33e66ff0fbd49f6ffa359b68f7f04532d3f5109294bcf02
       REQ_URL_MAP: "${{toJSON('{\"SL_RESULT_API_HOST\":\"https://48b2-103-58-66-150.ngrok.io/resultapi\"\
         ,\"SL_RESULTPARSER_API_HOST\":\"https://8076-103-58-66-150.ngrok.io/resultparserapi\"\
         }')}}"
